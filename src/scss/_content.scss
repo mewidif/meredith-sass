@@ -1,0 +1,31 @@
+.content {
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $secondary-color;
+
+  > * {
+    padding-left: 30px;
+  }
+
+  p {
+    width: 55%;
+    min-width: 550px;
+// 16.6.1 text sizes:
+    size: 2rem;
+    line-height: 1.7rem;
+  }
+  img, video {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+  ul {
+    list-style: square;
+    margin-left: 15px;
+  }
+  a {
+    text-decoration: underline;
+    color: $tertiary-color;
+  }
+}

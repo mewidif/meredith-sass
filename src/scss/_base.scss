@@ -1,0 +1,36 @@
+html, body {
+  font-family: Arial;
+  font-size: 62.5%;
+  color: $primary-color;
+}
+
+p, ul, ol, dl {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 3.75rem;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin: 16px 0;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 14px 0 8px 0;
+}
+
+h4 {
+  font-size: 1.6rem;
+  margin: 14px 0 8px 0;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+}
